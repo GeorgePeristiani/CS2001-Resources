@@ -14,6 +14,10 @@
                        The css class of the menu is "navlist"
                        Check lecture slides about lists, an example of a more basic menu, and CSS class selector-->
             <ul class="navlist">
+                <li>Home</li>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Help</li>
             </ul>
          </nav>
         <main>
@@ -32,14 +36,26 @@
                            Check lecture slides and the links on the slides to learn about forms
                            and how to create a button that would react to a click Event
                         -->
+                           <label for="name">Name:</label><br>
+                           <input type="text"><br><br>
+                           <label for="email">Email:</label><br>
+                           <input type="text"><br><br>
+                           <label for="pword">Password:</label><br>
+                           <input type="text"><br><br>
+                           <label for="retypepword">Re-type password:</label><br>
+                           <input type="text"><br><br>
                     <!-- Example given for user type checkboxes-->
                     
                     <input type="checkbox" id="buyer" name="buyer" value="buyer">
                     <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
                     <input type="checkbox" id="seller" name="seller" value="seller">
                     <label for="seller">I want to sell produce from my allotment.</label><br><br>
+                    <input type="checkbox" id="agree" name="agree" value="agree">
+                    <label for="agree">I agree to the Terms of Use and Privacy Policy</label><br><br>
+                    <input type="button" id="Register" name="Register" value="Register">
+                    <label for="Register">Learn more</label>
 
-                    <br><br>
+                    <br>
                 </form>
                 <div class="center" id="hiddenSection">
                     <p id="hiddenParagraph"></p>
